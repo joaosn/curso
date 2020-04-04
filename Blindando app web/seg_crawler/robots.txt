@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /assets
+Disallow: /controllers
+Disallow: /models
+Disallow: /views
+Disallow: /environment.php
+Disallow: /config.php
+Disallow: para desativar para q motor de busca n exiba
+allow: para mostrar 

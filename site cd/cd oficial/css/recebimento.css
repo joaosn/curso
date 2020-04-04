@@ -1,0 +1,22 @@
+* {
+	font-family:Arial Rounded MT Bold,High Tower Text,Arial;
+
+}
+body {
+	margin:0;
+}
+.container {
+	display:flex;
+	justify-content:center;
+	
+}
+.boxtt {
+	flex:1;
+	width:300px;
+	height:300px;
+	border:1px solid #4c4852;
+	border-radius:30px;
+	text-align:center;
+	margin-top:10px;
+	box-shadow:10px 10px 10px;
+}

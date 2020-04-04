@@ -1,0 +1,2 @@
+<?php 
+addcslashes(str, charlist);

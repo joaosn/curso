@@ -1,0 +1,108 @@
+* {
+	font-family:Arial; 
+}
+body {
+	margin:0;
+	padding:0;
+}
+
+.topo {
+	height:50px;
+	background-color:#1f2426; 
+}
+.topo2 {
+	width:1000px;
+	margin:auto;
+}
+.logoo {
+	width: 1000px;
+	
+	font-size:40px;
+	color:#ffffff;
+}
+.menu {
+	float:right; 
+	line-height: 50px;
+	color: #ffffff;
+}
+.menu ul,
+.menu li {
+	margin:0;
+	padding:0;
+	list-style:none; 
+	font-size: 20px;
+}
+.menu li {
+	float:left;
+	padding-left: 10px;
+	padding-right: 10px; 
+}
+.menu li:hover {
+	background-color: #1bb4ff;
+}
+.baner {
+	height:300px;
+	background-color: #939393;
+}
+.banerlados {
+	width:1000px;
+	margin:auto;
+}
+.baneresquerda {
+	float:left;
+}
+.banerdireito { 
+	float:right; 
+	margin-top: 60px;
+} 
+.banerdireito img {
+    margin-right: 20px;   
+}
+.frase1 {
+	font-size: 30px;
+	color: #ffffff;
+	margin-top:60px;
+} 
+.frase2 {
+	font-size: 25px;
+	color: #ffffff;
+}
+.botao {
+    background-color: #ffc001;
+    width: 288px;
+    height: 50px;
+    font-size: 20px;
+    text-align:center;
+    line-height: 50px;
+    margin-top: 25px;
+    cursor:pointer;
+    border-radius: 7px;
+}
+.produtos2 {
+	width: 1000px;
+	margin:auto;
+
+}
+.produtos3 {
+    height: 500px;
+	font-size: 50px;
+	text-align:center;
+	line-height: 500px; 
+}	
+.fotos img {
+	width: 300px;
+	height: 300px;
+	margin-left:15px;
+	margin-right:15px;
+}
+.rodape {
+	background-color: #939393;
+	height: 50px;
+	text-align:center;
+	line-height: 50px;
+	color: #ffffff;
+	margin-top: 50px;
+}
+audio {
+	margin-top:10px;
+}

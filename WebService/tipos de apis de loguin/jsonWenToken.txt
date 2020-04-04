@@ -1,0 +1,41 @@
+header.payload.signature
+
+HEADER
+{
+	"typ":"JWT",
+	"alg":"HS256"
+}
+
+sdfghjkl54gfdfg
+
+
+PAYLOAD
+{
+	"iss":"meusite.com", para permitir acesso
+	"exp":34567890, pra sabaer quando expira
+	"iat":"234567"  pra saber a idade
+	"jti":"676543ghhf43" resh unico so usar uma vez 
+
+           infos dos usuario
+	"id_user":321
+	"alksrjiu":"lasfjugssgf"
+
+	asdfghjkl34567xcvb
+}
+
+SIGNATURE 
+{
+	ela conjunto do 
+
+	HS256(base64(header). base64(playload). CHAVE SECRETA256bit)
+
+	vai gerar um codido dps do comando HS256*
+
+	asdfghjkl23456sdfghj
+}
+
+     header            payload               signature
+sdfghjkl54gfdfg.    asdfghjkl34567xcvb.     asdfghjkl23456sdfghj = JWT final
+
+
+cada camada gera um codico e eles se ajuntam no final 
